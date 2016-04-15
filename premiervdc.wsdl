@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions name="Service1" targetNamespace="http://m2north.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://m2north.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">
+	<wsdl:types>
+		<xsd:schema targetNamespace="http://m2north.org/Imports">
+			<xsd:import schemaLocation="https://www.premierdemo.com/messages.xsd" namespace="http://m2north.org/"/>
+			<xsd:import schemaLocation="https://www.premierdemo.com/serilization.xsd" namespace="http://schemas.microsoft.com/2003/10/Serialization/"/>
+		</xsd:schema>
+	</wsdl:types>
+	<wsdl:message name="PremierService1_SaveReq_InputMessage">
+		<wsdl:part name="parameters" element="tns:SaveReq"/>
+	</wsdl:message>
+	<wsdl:message name="PremierService1_SaveReq_OutputMessage">
+		<wsdl:part name="parameters" element="tns:SaveReqResponse"/>
+	</wsdl:message>
+	<wsdl:portType name="PremierService1">
+		<wsdl:operation name="SaveReq">
+			<wsdl:input wsaw:Action="http://m2north.org/PremierService1/SaveReq" message="tns:PremierService1_SaveReq_InputMessage"/>
+			<wsdl:output wsaw:Action="http://m2north.org/PremierService1/SaveReqResponse" message="tns:PremierService1_SaveReq_OutputMessage"/>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="BasicHttpBinding_PremierService1" type="tns:PremierService1">
+		<soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+		<wsdl:operation name="SaveReq">
+			<soap:operation soapAction="http://m2north.org/PremierService1/SaveReq" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="Service1">
+		<wsdl:port name="BasicHttpBinding_PremierService1" binding="tns:BasicHttpBinding_PremierService1">
+			<soap:address location="https://soap.m2north.com/premier.incoming.request.m2?interface=dev"/>
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

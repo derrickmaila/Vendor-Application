@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8211d9d0-2d8b-4461-a76c-2f47517cc306" name="Default" comment="JohanK : 03/08/2015 Added History for Vendor and Audits for Buyers. Fixed contract imports to have responses allocated to the contracted RFQ">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/history/audit.php" afterPath="$PROJECT_DIR$/views/history/audit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/dashboard/display.php" afterPath="$PROJECT_DIR$/views/dashboard/display.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/applications/displaytable.php" afterPath="$PROJECT_DIR$/views/applications/displaytable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/history/displaytable.php" afterPath="$PROJECT_DIR$/views/history/displaytable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/rfq/displaytable.php" afterPath="$PROJECT_DIR$/views/rfq/displaytable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/vendors/history.php" afterPath="$PROJECT_DIR$/views/vendors/history.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/imports/import.php" afterPath="$PROJECT_DIR$/models/imports/import.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/imports/main.php" afterPath="$PROJECT_DIR$/controllers/imports/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/rfq/reject.php" afterPath="$PROJECT_DIR$/views/rfq/reject.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/reports/report.php" afterPath="$PROJECT_DIR$/views/reports/report.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/dashboard/responses.php" afterPath="$PROJECT_DIR$/views/dashboard/responses.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/rfq/viewItemSpec.php" afterPath="$PROJECT_DIR$/views/rfq/viewItemSpec.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/rfq/viewRfqAudit.php" afterPath="$PROJECT_DIR$/views/rfq/viewRfqAudit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="premier-vendor-applications.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="premier-vendor-applications" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/imports/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="0" selection-start="1080" selection-end="1080" vertical-scroll-proportion="-10.625" vertical-offset="540" max-vertical-offset="1170">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="import.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models/imports/import.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="615" column="58" selection-start="26383" selection-end="26383" vertical-scroll-proportion="3.3637903" vertical-offset="7237" max-vertical-offset="10005">
+              <folding>
+                <element signature="e#6#81#0" expanded="true" />
+                <marker date="1438681109982" expanded="true" signature="14412:14474" placeholder="SELECT porta..vendormapping..." />
+                <marker date="1438681109982" expanded="true" signature="14832:14888" placeholder="UPDATE rfqhe..." />
+                <marker date="1438681109982" expanded="true" signature="15226:15375" placeholder="INSERT INTO ..." />
+                <marker date="1438681109982" expanded="true" signature="15858:16066" placeholder="INSERT INTO ..." />
+                <marker date="1438681109982" expanded="true" signature="19158:19210" placeholder="DELETE FROM ..." />
+                <marker date="1438681109982" expanded="true" signature="19357:19408" placeholder="DELETE FROM ..." />
+                <marker date="1438681109982" expanded="true" signature="25048:25181" placeholder="SELECT count..itemattributes..." />
+                <marker date="1438681109982" expanded="true" signature="25573:25744" placeholder="UPDATE itema..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/imports/extractfields.php" />
+        <option value="$PROJECT_DIR$/views/applications/form.php" />
+        <option value="$PROJECT_DIR$/classes/acore.php" />
+        <option value="$PROJECT_DIR$/assets/js/jquery.datetimepicker.js" />
+        <option value="$PROJECT_DIR$/assets/css/default/jquery.datetimepicker.css" />
+        <option value="$PROJECT_DIR$/models/imports/importRFQ.php" />
+        <option value="$PROJECT_DIR$/models/imports/importOLD.php" />
+        <option value="$PROJECT_DIR$/assets/css/default/iliad.css" />
+        <option value="$PROJECT_DIR$/models/rfqaudit.php" />
+        <option value="$PROJECT_DIR$/models/exports/rfqresponsejson.php" />
+        <option value="$PROJECT_DIR$/views/vendormapping/form.php" />
+        <option value="$PROJECT_DIR$/controllers/vendormapping/main.php" />
+        <option value="$PROJECT_DIR$/models/vendormapping.php" />
+        <option value="$PROJECT_DIR$/controllers/exports/main.php" />
+        <option value="$PROJECT_DIR$/controllers/default/default.php" />
+        <option value="$PROJECT_DIR$/models/exports/exports.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/assets/css/default/ui.css" />
+        <option value="$PROJECT_DIR$/models/history/history.php" />
+        <option value="$PROJECT_DIR$/bootloader/bootstrap.inc.php" />
+        <option value="$PROJECT_DIR$/classes/acontroller.php" />
+        <option value="$PROJECT_DIR$/views/buyermapping/displaytable.php" />
+        <option value="$PROJECT_DIR$/views/vendormapping/displaytable.php" />
+        <option value="$PROJECT_DIR$/views/default/startheader.php" />
+        <option value="$PROJECT_DIR$/views/users/displaytable.php" />
+        <option value="$PROJECT_DIR$/views/default/footerloggedin.php" />
+        <option value="$PROJECT_DIR$/views/default/footer.php" />
+        <option value="$PROJECT_DIR$/views/rfq/respond.php" />
+        <option value="$PROJECT_DIR$/controllers/history/main.php" />
+        <option value="$PROJECT_DIR$/views/default/menu.php" />
+        <option value="$PROJECT_DIR$/controllers/users/login.php" />
+        <option value="$PROJECT_DIR$/views/default/startheaderloggedin.php" />
+        <option value="$PROJECT_DIR$/models/users/user.php" />
+        <option value="$PROJECT_DIR$/assets/css/default/default.css" />
+        <option value="$PROJECT_DIR$/classes/amodel.php" />
+        <option value="$PROJECT_DIR$/views/history/quoteview.php" />
+        <option value="$PROJECT_DIR$/controllers/dashboard/main.php" />
+        <option value="$PROJECT_DIR$/models/rfq/rfq.php" />
+        <option value="$PROJECT_DIR$/views/applications/displaytable.php" />
+        <option value="$PROJECT_DIR$/views/reports/report.php" />
+        <option value="$PROJECT_DIR$/views/rfq/reject.php" />
+        <option value="$PROJECT_DIR$/views/dashboard/display.php" />
+        <option value="$PROJECT_DIR$/views/dashboard/responses.php" />
+        <option value="$PROJECT_DIR$/views/history/displaytable.php" />
+        <option value="$PROJECT_DIR$/views/rfq/displaytable.php" />
+        <option value="$PROJECT_DIR$/views/rfq/viewRfqAudit.php" />
+        <option value="$PROJECT_DIR$/views/rfq/viewItemSpec.php" />
+        <option value="$PROJECT_DIR$/views/history/audit.php" />
+        <option value="$PROJECT_DIR$/views/vendors/history.php" />
+        <option value="$PROJECT_DIR$/controllers/imports/main.php" />
+        <option value="$PROJECT_DIR$/models/imports/import.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="Unnamed">
+    <include_path>
+      <path value="/usr/share/php" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1301" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendormapping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rfq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="history" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="buyermapping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="audits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rfq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premier-vendor-applications" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
+    <property name="SearchEverywhereHistory" value="" />
+    <property name="options.lastSelected" value="coverage" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views/rfq" />
+      <recent name="$PROJECT_DIR$/views/vendors" />
+      <recent name="$PROJECT_DIR$/views/history" />
+      <recent name="$PROJECT_DIR$/models" />
+      <recent name="$PROJECT_DIR$/controllers" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8211d9d0-2d8b-4461-a76c-2f47517cc306" name="Default" comment="" />
+      <created>1435043813707</created>
+      <updated>1435043813707</updated>
+    </task>
+    <task id="LOCAL-00001" summary="JOhanK 23/06/2015 : Premier H/Q">
+      <created>1435043953754</created>
+      <updated>1435043953754</updated>
+    </task>
+    <task id="LOCAL-00002" summary="JOhanK 23/06/2015 : Premier H/Q">
+      <created>1435052850943</created>
+      <updated>1435052850943</updated>
+    </task>
+    <task id="LOCAL-00003" summary="JOhanK 23/06/2015 : Premier H/Q">
+      <created>1435053246660</created>
+      <updated>1435053246660</updated>
+    </task>
+    <task id="LOCAL-00004" summary="JOhanK 23/06/2015 : Premier H/Q">
+      <created>1435067508264</created>
+      <updated>1435067508264</updated>
+    </task>
+    <task id="LOCAL-00005" summary="JOhanK 23/06/2015 : Premier H/Q">
+      <created>1435135727529</created>
+      <updated>1435135727529</updated>
+    </task>
+    <task id="LOCAL-00006" summary="JOhanK 23/06/2015 : Premier H/Q">
+      <created>1435137715551</created>
+      <updated>1435137715551</updated>
+    </task>
+    <task id="LOCAL-00007" summary="JOhanK 23/06/2015 : Premier H/Q">
+      <created>1435138118531</created>
+      <updated>1435138118531</updated>
+    </task>
+    <task id="LOCAL-00008" summary="JOhanK 23/06/2015 : Premier H/Q">
+      <created>1435150751792</created>
+      <updated>1435150751792</updated>
+    </task>
+    <task id="LOCAL-00009" summary="JOhanK 23/06/2015 : Premier H/Q">
+      <created>1435151452535</created>
+      <updated>1435151452535</updated>
+    </task>
+    <task id="LOCAL-00010" summary="JOhanK 23/06/2015 : Premier H/Q">
+      <created>1435152748745</created>
+      <updated>1435152748745</updated>
+    </task>
+    <task id="LOCAL-00011" summary="JOhanK 23/06/2015 : Premier H/Q">
+      <created>1435154835730</created>
+      <updated>1435154835730</updated>
+    </task>
+    <task id="LOCAL-00012" summary="JOhanK 23/06/2015 : Premier H/Q">
+      <created>1435168307795</created>
+      <updated>1435168307796</updated>
+    </task>
+    <task id="LOCAL-00013" summary="JOhanK 23/06/2015 : Premier H/Q">
+      <created>1435211551413</created>
+      <updated>1435211551413</updated>
+    </task>
+    <task id="LOCAL-00014" summary="JOhanK 25/06/2015 : Premier H/Q">
+      <created>1435223639439</created>
+      <updated>1435223639439</updated>
+    </task>
+    <task id="LOCAL-00015" summary="JOhanK 25/06/2015 : Premier H/Q">
+      <created>1435301919616</created>
+      <updated>1435301919616</updated>
+    </task>
+    <task id="LOCAL-00016" summary="JOhanK 25/06/2015 : Premier H/Q">
+      <created>1435753013227</created>
+      <updated>1435753013227</updated>
+    </task>
+    <task id="LOCAL-00017" summary="JOhanK 25/06/2015 : Premier H/Q">
+      <created>1435816613288</created>
+      <updated>1435816613288</updated>
+    </task>
+    <task id="LOCAL-00018" summary="JOhanK 25/06/2015 : Premier H/Q">
+      <created>1435829912779</created>
+      <updated>1435829912779</updated>
+    </task>
+    <task id="LOCAL-00019" summary="JOhanK 25/06/2015 : Premier H/Q">
+      <created>1435845744420</created>
+      <updated>1435845744420</updated>
+    </task>
+    <task id="LOCAL-00020" summary="JOhanK 25/06/2015 : Premier H/Q">
+      <created>1436165077904</created>
+      <updated>1436165077904</updated>
+    </task>
+    <task id="LOCAL-00021" summary="JOhanK 25/06/2015 : Premier H/Q">
+      <created>1436181337785</created>
+      <updated>1436181337785</updated>
+    </task>
+    <task id="LOCAL-00022" summary="JOhanK 25/06/2015 : Premier H/Q">
+      <created>1436250194166</created>
+      <updated>1436250194166</updated>
+    </task>
+    <task id="LOCAL-00023" summary="JOhanK 25/06/2015 : Premier H/Q">
+      <created>1436262559419</created>
+      <updated>1436262559419</updated>
+    </task>
+    <task id="LOCAL-00024" summary="JOhanK 25/06/2015 : Premier H/Q">
+      <created>1436264065764</created>
+      <updated>1436264065764</updated>
+    </task>
+    <task id="LOCAL-00025" summary="JOhanK 25/06/2015 : Premier H/Q">
+      <created>1436266463312</created>
+      <updated>1436266463312</updated>
+    </task>
+    <task id="LOCAL-00026" summary="JOhanK 25/06/2015 : Premier H/Q">
+      <created>1436268029379</created>
+      <updated>1436268029379</updated>
+    </task>
+    <task id="LOCAL-00027" summary="JOhanK 25/06/2015 : Premier H/Q">
+      <created>1436274547336</created>
+      <updated>1436274547336</updated>
+    </task>
+    <task id="LOCAL-00028" summary="JOhanK 25/06/2015 : Premier H/Q">
+      <created>1436444461774</created>
+      <updated>1436444461774</updated>
+    </task>
+    <task id="LOCAL-00029" summary="JOhanK 25/06/2015 : Premier H/Q">
+      <created>1436464260363</created>
+      <updated>1436464260363</updated>
+    </task>
+    <task id="LOCAL-00030" summary="JOhanK 25/06/2015 : Premier H/Q">
+      <created>1436476000079</created>
+      <updated>1436476000079</updated>
+    </task>
+    <task id="LOCAL-00031" summary="JOhanK 25/06/2015 : Premier H/Q">
+      <created>1436481548555</created>
+      <updated>1436481548555</updated>
+    </task>
+    <task id="LOCAL-00032" summary="JOhanK 25/06/2015 : Premier H/Q">
+      <created>1436486284110</created>
+      <updated>1436486284110</updated>
+    </task>
+    <task id="LOCAL-00033" summary="JOhanK 25/06/2015 : Premier H/Q">
+      <created>1436486466973</created>
+      <updated>1436486466973</updated>
+    </task>
+    <task id="LOCAL-00034" summary="JOhanK 25/06/2015 : Premier H/Q">
+      <created>1436508966978</created>
+      <updated>1436508966978</updated>
+    </task>
+    <task id="LOCAL-00035" summary="JohanK : 12/07/2015 -&gt; Finished with Inbox for Suppliers/Vendors... WORKING!!!!">
+      <created>1436698548042</created>
+      <updated>1436698548042</updated>
+    </task>
+    <task id="LOCAL-00036" summary="JohanK : 13/07/2015">
+      <created>1436771148006</created>
+      <updated>1436771148006</updated>
+    </task>
+    <task id="LOCAL-00037" summary="JohanK : 13/07/2015">
+      <created>1436955898569</created>
+      <updated>1436955898569</updated>
+    </task>
+    <task id="LOCAL-00038" summary="JohanK : 13/07/2015">
+      <created>1436959299012</created>
+      <updated>1436959299012</updated>
+    </task>
+    <task id="LOCAL-00039" summary="JohanK : 13/07/2015">
+      <created>1436993817267</created>
+      <updated>1436993817267</updated>
+    </task>
+    <task id="LOCAL-00040" summary="JohanK : 13/07/2015">
+      <created>1437025273089</created>
+      <updated>1437025273089</updated>
+    </task>
+    <task id="LOCAL-00041" summary="JohanK : 13/07/2015">
+      <created>1437386629502</created>
+      <updated>1437386629502</updated>
+    </task>
+    <task id="LOCAL-00042" summary="JohanK : 13/07/2015">
+      <created>1437463611503</created>
+      <updated>1437463611503</updated>
+    </task>
+    <task id="LOCAL-00043" summary="JohanK : 21/07/2015">
+      <created>1437576887681</created>
+      <updated>1437576887681</updated>
+    </task>
+    <task id="LOCAL-00044" summary="JohanK : 23/07/2015">
+      <created>1437659492730</created>
+      <updated>1437659492730</updated>
+    </task>
+    <task id="LOCAL-00045" summary="JohanK : 23/07/2015">
+      <created>1437660963532</created>
+      <updated>1437660963532</updated>
+    </task>
+    <task id="LOCAL-00046" summary="JohanK : 24/07/2015">
+      <created>1437728346188</created>
+      <updated>1437728346188</updated>
+    </task>
+    <task id="LOCAL-00047" summary="JohanK : 24/07/2015">
+      <created>1437765816417</created>
+      <updated>1437765816417</updated>
+    </task>
+    <task id="LOCAL-00048" summary="JohanK : 27/07/2015">
+      <created>1437979864975</created>
+      <updated>1437979864975</updated>
+    </task>
+    <task id="LOCAL-00049" summary="JohanK : 27/07/2015">
+      <created>1437983835872</created>
+      <updated>1437983835872</updated>
+    </task>
+    <task id="LOCAL-00050" summary="JohanK : 27/07/2015">
+      <created>1438003035017</created>
+      <updated>1438003035017</updated>
+    </task>
+    <task id="LOCAL-00051" summary="JohanK : 27/07/2015">
+      <created>1438009208604</created>
+      <updated>1438009208604</updated>
+    </task>
+    <task id="LOCAL-00052" summary="JohanK : 27/07/2015">
+      <created>1438062230179</created>
+      <updated>1438062230179</updated>
+    </task>
+    <task id="LOCAL-00053" summary="JohanK : 27/07/2015">
+      <created>1438062391172</created>
+      <updated>1438062391173</updated>
+    </task>
+    <task id="LOCAL-00054" summary="JohanK : 27/07/2015">
+      <created>1438062684363</created>
+      <updated>1438062684363</updated>
+    </task>
+    <task id="LOCAL-00055" summary="JohanK : 27/07/2015">
+      <created>1438072658473</created>
+      <updated>1438072658473</updated>
+    </task>
+    <task id="LOCAL-00056" summary="JohanK : 27/07/2015">
+      <created>1438072720566</created>
+      <updated>1438072720566</updated>
+    </task>
+    <task id="LOCAL-00057" summary="JohanK : 27/07/2015">
+      <created>1438073414152</created>
+      <updated>1438073414152</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284974" sideWeight="0.4997242" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32824427" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984003" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2498621" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15329626" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5002758" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32746115" sideWeight="0.4997242" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32824427" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988626" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284974" sideWeight="0.4997242" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984003" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5002758" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32746115" sideWeight="0.4997242" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988626" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2498621" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13734142" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="JOhanK 23/06/2015 : Premier H/Q" />
+    <MESSAGE value="JOhanK 25/06/2015 : Premier H/Q" />
+    <MESSAGE value="JohanK : 12/07/2015 -&gt; Finished with Inbox for Suppliers/Vendors... WORKING!!!!" />
+    <MESSAGE value="JohanK : 13/07/2015" />
+    <MESSAGE value="JohanK : 21/07/2015" />
+    <MESSAGE value="JohanK : 23/07/2015" />
+    <MESSAGE value="JohanK : 24/07/2015" />
+    <MESSAGE value="JohanK : 27/07/2015" />
+    <MESSAGE value="JohanK : 03/08/2015 Added History for Vendor and Audits for Buyers. Fixed contract imports to have responses allocated to the contracted RFQ" />
+    <option name="LAST_COMMIT_MESSAGE" value="JohanK : 03/08/2015 Added History for Vendor and Audits for Buyers. Fixed contract imports to have responses allocated to the contracted RFQ" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/models/history/history.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="9" selection-start="1717" selection-end="1717" vertical-scroll-proportion="0.2857143" vertical-offset="567" max-vertical-offset="1470" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/buyermapping/form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="420" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/vendormapping/form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="18" selection-start="575" selection-end="575" vertical-scroll-proportion="0.29475984" vertical-offset="0" max-vertical-offset="916" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/default/homepage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="938" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/restricted/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="938" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/accesscontrol/accesscontrol.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.8227571" vertical-offset="1666" max-vertical-offset="2580" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/sms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="938" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/default/menuloggedin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="938" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/acontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="35" selection-start="223" selection-end="223" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/acore.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2400" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootloader/bootstrap.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="2" selection-start="347" selection-end="347" vertical-scroll-proportion="0.16411379" vertical-offset="0" max-vertical-offset="914" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/jquery-1.8.3.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="22035" selection-start="22088" selection-end="22088" vertical-scroll-proportion="0.016216217" vertical-offset="0" max-vertical-offset="925" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/default/ui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="532" column="10" selection-start="11298" selection-end="11304" vertical-scroll-proportion="0.33296213" vertical-offset="7681" max-vertical-offset="34515" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/default/jquery.datetimepicker.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="6" selection-start="894" selection-end="896" vertical-scroll-proportion="0.33260155" vertical-offset="162" max-vertical-offset="4410" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/flat-ui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="80175" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/buyermapping/displaytable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="103" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.32713348" vertical-offset="361" max-vertical-offset="2175" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/default/startheader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="57" selection-start="114" selection-end="114" vertical-scroll-proportion="0.09966777" vertical-offset="0" max-vertical-offset="602" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/users/displaytable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="34" selection-start="2059" selection-end="2059" vertical-scroll-proportion="0.7360406" vertical-offset="315" max-vertical-offset="3615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/users/adduser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.83774835" vertical-offset="506" max-vertical-offset="1110" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/webstorefeaturelight-logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/vendormapping/displaytable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="103" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.720524" vertical-offset="0" max-vertical-offset="2175" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/default/footerloggedin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="29" selection-start="0" selection-end="392" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/default/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/audits/displaytable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="21" selection-start="1268" selection-end="1268" vertical-scroll-proportion="-46.25" vertical-offset="0" max-vertical-offset="1545" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/vendors/vendors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="940" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/history/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="5" selection-start="313" selection-end="313" vertical-scroll-proportion="0.16375546" vertical-offset="0" max-vertical-offset="916" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/default/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="159" column="84" selection-start="3199" selection-end="3213" vertical-scroll-proportion="-21.291666" vertical-offset="1844" max-vertical-offset="2820" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/users/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="232" selection-end="232" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="810" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/default/startheaderloggedin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="76" selection-start="812" selection-end="812" vertical-scroll-proportion="0.23255815" vertical-offset="0" max-vertical-offset="903" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/users/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2670" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/users/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="5" selection-start="1147" selection-end="1147" vertical-scroll-proportion="0.540393" vertical-offset="0" max-vertical-offset="2865" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/default/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="40" selection-start="1363" selection-end="1363" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="39585" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/amodel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="201" column="12" selection-start="5867" selection-end="5867" vertical-scroll-proportion="0.7871179" vertical-offset="2294" max-vertical-offset="3210" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="659" selection-end="659" vertical-scroll-proportion="0.4366812" vertical-offset="35" max-vertical-offset="1200" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/rfq/respond.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="259" column="34" selection-start="11252" selection-end="11252" vertical-scroll-proportion="-15.166667" vertical-offset="3431" max-vertical-offset="4335" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/rfq/rfq.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="290" column="20" selection-start="9911" selection-end="9911" vertical-scroll-proportion="-131.45833" vertical-offset="1105" max-vertical-offset="7245" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/applications/displaytable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="596" column="12" selection-start="14843" selection-end="14843" vertical-scroll-proportion="-4.9166665" vertical-offset="8822" max-vertical-offset="9615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/reports/report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="12" selection-start="3292" selection-end="3292" vertical-scroll-proportion="-5.25" vertical-offset="1869" max-vertical-offset="2445" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/history/quoteview.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="68" selection-start="4284" selection-end="4284" vertical-scroll-proportion="-5.25" vertical-offset="1584" max-vertical-offset="2685" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/history/displaytable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="215" column="24" selection-start="7076" selection-end="7076" vertical-scroll-proportion="-10.541667" vertical-offset="2882" max-vertical-offset="4275" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/rfq/displaytable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="130" column="42" selection-start="4175" selection-end="4175" vertical-scroll-proportion="-7.7916665" vertical-offset="1673" max-vertical-offset="2040" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/rfq/reject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="184" column="16" selection-start="6687" selection-end="6687" vertical-scroll-proportion="-5.25" vertical-offset="2544" max-vertical-offset="3090" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/dashboard/display.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="411" column="50" selection-start="15271" selection-end="15271" vertical-scroll-proportion="-4.9166665" vertical-offset="5957" max-vertical-offset="7035" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/rfq/viewRfqAudit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="88" selection-start="357" selection-end="388" vertical-scroll-proportion="-6.5" vertical-offset="9" max-vertical-offset="930" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/dashboard/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="35" selection-start="1415" selection-end="1415" vertical-scroll-proportion="-4.9166665" vertical-offset="812" max-vertical-offset="3405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/history/audit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="161" column="0" selection-start="5518" selection-end="5518" vertical-scroll-proportion="-7.4166665" vertical-offset="2147" max-vertical-offset="4275" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/vendors/history.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="193" column="0" selection-start="6415" selection-end="6415" vertical-scroll-proportion="0.2250423" vertical-offset="2672" max-vertical-offset="3780" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/dashboard/responses.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="22" selection-start="55" selection-end="55" vertical-scroll-proportion="0.12690355" vertical-offset="0" max-vertical-offset="4650" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/rfq/viewItemSpec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="53" selection-start="218" selection-end="218" vertical-scroll-proportion="0.22350994" vertical-offset="0" max-vertical-offset="690" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/imports/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="1080" selection-end="1080" vertical-scroll-proportion="-10.625" vertical-offset="540" max-vertical-offset="1170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/imports/import.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="615" column="58" selection-start="26383" selection-end="26383" vertical-scroll-proportion="3.3637903" vertical-offset="7237" max-vertical-offset="10005">
+          <folding>
+            <element signature="e#6#81#0" expanded="true" />
+            <marker date="1438681109982" expanded="true" signature="14412:14474" placeholder="SELECT porta..vendormapping..." />
+            <marker date="1438681109982" expanded="true" signature="14832:14888" placeholder="UPDATE rfqhe..." />
+            <marker date="1438681109982" expanded="true" signature="15226:15375" placeholder="INSERT INTO ..." />
+            <marker date="1438681109982" expanded="true" signature="15858:16066" placeholder="INSERT INTO ..." />
+            <marker date="1438681109982" expanded="true" signature="19158:19210" placeholder="DELETE FROM ..." />
+            <marker date="1438681109982" expanded="true" signature="19357:19408" placeholder="DELETE FROM ..." />
+            <marker date="1438681109982" expanded="true" signature="25048:25181" placeholder="SELECT count..itemattributes..." />
+            <marker date="1438681109982" expanded="true" signature="25573:25744" placeholder="UPDATE itema..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

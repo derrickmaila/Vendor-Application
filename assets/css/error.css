@@ -1,0 +1,81 @@
+body {
+    background: rgb(9,99,195); /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, rgba(9,99,195,1) 0%, rgba(6,63,124,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(9,99,195,1)), color-stop(100%,rgba(6,63,124,1))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(9,99,195,1) 0%,rgba(6,63,124,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover, rgba(9,99,195,1) 0%,rgba(6,63,124,1) 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover, rgba(9,99,195,1) 0%,rgba(6,63,124,1) 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center, rgba(9,99,195,1) 0%,rgba(6,63,124,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0963c3', endColorstr='#063f7c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    color: #666666;
+    font: 14px/16px 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.wrapper {
+    width: 400px;
+    margin: auto;
+}
+
+.error-block {
+    background: #fafafa;
+    border: 1px solid #cecece;
+    box-shadow: 0 0 3px rgba(0,0,0,0.175);
+    padding: 20px;
+    position: absolute;
+}
+
+h1 {
+    font-weight: 400;
+    text-align: center;
+}
+
+h1.status-code {
+    font-size: 100px;
+    font-weight: 300;
+    line-height: 100px;
+    margin: 10px 0 25px;
+    text-shadow: 0 1px 0 #fff;
+}
+
+.text-center { text-align: center; }
+
+
+input.nano-btn, button.nano-btn, a.nano-btn {
+    background: #FAFAFA;
+    border: 1px solid;
+    border-color: #CECECE #BEBEC5 #AEAEAC;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), inset 0 1px 0 rgba(255, 255, 255, 1);
+    color: #666666;
+    cursor: pointer;
+    display: block;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 800;
+    outline: none;
+    margin: 0 2px;
+    max-height: 35px;
+    padding: 9px 20px;
+    text-align: center;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+input.nano-btn:hover, button.nano-btn:hover, a.nano-btn:hover {
+    background: #FFFFFF;
+}
+
+a { text-decoration: none; }
+
+p { margin: 15px 0; }
+
+hr {
+    border-color: #BEBEC5;
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    box-shadow: 0 1px 0 #fff, 0 -1px 0 #fff;
+}

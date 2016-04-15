@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+  xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+  xmlns:tns="http://example.com/schema"
+  targetNamespace="http://example.com/schema">
+<wsdl:types>
+       <schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="unqualified" attributeFormDefault="unqualified">
+      <element name="header">
+           <complexType>
+               <sequence>
+		      	<element name="username" type="xsd:string" />
+		      	<element name="password" type="xsd:string" />
+      	  	   </sequence>
+      	  </complexType>
+      </element>
+      <element name="body">
+        
+      </element>
+    </schema>
+  </wsdl:types>
+  
+  <wsdl:message name="inputMessage">
+    <wsdl:part name="header_part" element="header" />
+
+    <wsdl:part name="body_part" element="body" />
+  </wsdl:message>
+
+  <wsdl:portType name="PremierRequests">
+    <wsdl:operation name="RFQRequest">
+      <wsdl:input message="tns:inputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  
+  <wsdl:binding name="premierbinding" type="tns:PremierRequests">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="RFQRequest">
+      <soap:operation soapAction="http://example.com/operation" style="document" />
+      <wsdl:input>
+        <soap:header message="tns:inputMessage" part="header_part" use="literal" />
+        <soap:body parts="body_part" use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+  </wsdl:binding>
+
+
+    <wsdl:service name="PremierService">
+        <wsdl:port name="Premier_HTTPPort" binding="Premier">
+            <soap:address location="https://soap.m2north.com/premier.incoming.request.m2?interface=dev"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>
